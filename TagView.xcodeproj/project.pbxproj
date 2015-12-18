@@ -13,59 +13,7 @@
 		1EB367641C1EB3AE00AE69E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB367631C1EB3AE00AE69E1 /* Assets.xcassets */; };
 		1EB367671C1EB3AE00AE69E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB367651C1EB3AE00AE69E1 /* LaunchScreen.storyboard */; };
 		1EB3676F1C1EB41800AE69E1 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB3676E1C1EB41800AE69E1 /* TagView.swift */; };
-		1EB367821C1EB6BF00AE69E1 /* SnapKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1EB367781C1EB61400AE69E1 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1EB367771C1EB61400AE69E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1EB367701C1EB61400AE69E1 /* SnapKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
-			remoteInfo = "SnapKit iOS";
-		};
-		1EB367791C1EB61400AE69E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1EB367701C1EB61400AE69E1 /* SnapKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EECDB37A1AC0C9D4006BBC11;
-			remoteInfo = "SnapKit OSX";
-		};
-		1EB3677B1C1EB61400AE69E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1EB367701C1EB61400AE69E1 /* SnapKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
-			remoteInfo = "SnapKit iOS Tests";
-		};
-		1EB3677D1C1EB61400AE69E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1EB367701C1EB61400AE69E1 /* SnapKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EECDB3841AC0C9D4006BBC11;
-			remoteInfo = "SnapKit OSX Tests";
-		};
-		1EB3677F1C1EB63F00AE69E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1EB367701C1EB61400AE69E1 /* SnapKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EEBCC9D719CC627D0083B827;
-			remoteInfo = "SnapKit iOS";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1EB367811C1EB67200AE69E1 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1EB367821C1EB6BF00AE69E1 /* SnapKit.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1EB367591C1EB3AE00AE69E1 /* TagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +24,6 @@
 		1EB367661C1EB3AE00AE69E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EB367681C1EB3AE00AE69E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EB3676E1C1EB41800AE69E1 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
-		1EB367701C1EB61400AE69E1 /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = SnapKit/SnapKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +40,6 @@
 		1EB367501C1EB3AE00AE69E1 = {
 			isa = PBXGroup;
 			children = (
-				1EB367701C1EB61400AE69E1 /* SnapKit.xcodeproj */,
 				1EB3675B1C1EB3AE00AE69E1 /* TagView */,
 				1EB3675A1C1EB3AE00AE69E1 /* Products */,
 			);
@@ -121,17 +67,6 @@
 			path = TagView;
 			sourceTree = "<group>";
 		};
-		1EB367711C1EB61400AE69E1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1EB367781C1EB61400AE69E1 /* SnapKit.framework */,
-				1EB3677A1C1EB61400AE69E1 /* SnapKit.framework */,
-				1EB3677C1C1EB61400AE69E1 /* SnapKit iOS Tests.xctest */,
-				1EB3677E1C1EB61400AE69E1 /* SnapKit OSX Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,12 +77,10 @@
 				1EB367551C1EB3AE00AE69E1 /* Sources */,
 				1EB367561C1EB3AE00AE69E1 /* Frameworks */,
 				1EB367571C1EB3AE00AE69E1 /* Resources */,
-				1EB367811C1EB67200AE69E1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1EB367801C1EB63F00AE69E1 /* PBXTargetDependency */,
 			);
 			name = TagView;
 			productName = TagView;
@@ -180,49 +113,12 @@
 			mainGroup = 1EB367501C1EB3AE00AE69E1;
 			productRefGroup = 1EB3675A1C1EB3AE00AE69E1 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1EB367711C1EB61400AE69E1 /* Products */;
-					ProjectRef = 1EB367701C1EB61400AE69E1 /* SnapKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1EB367581C1EB3AE00AE69E1 /* TagView */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		1EB367781C1EB61400AE69E1 /* SnapKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SnapKit.framework;
-			remoteRef = 1EB367771C1EB61400AE69E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1EB3677A1C1EB61400AE69E1 /* SnapKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SnapKit.framework;
-			remoteRef = 1EB367791C1EB61400AE69E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1EB3677C1C1EB61400AE69E1 /* SnapKit iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SnapKit iOS Tests.xctest";
-			remoteRef = 1EB3677B1C1EB61400AE69E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1EB3677E1C1EB61400AE69E1 /* SnapKit OSX Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SnapKit OSX Tests.xctest";
-			remoteRef = 1EB3677D1C1EB61400AE69E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1EB367571C1EB3AE00AE69E1 /* Resources */ = {
@@ -249,14 +145,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1EB367801C1EB63F00AE69E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SnapKit iOS";
-			targetProxy = 1EB3677F1C1EB63F00AE69E1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1EB367601C1EB3AE00AE69E1 /* Main.storyboard */ = {

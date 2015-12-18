@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SnapKit
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
@@ -23,26 +22,16 @@ class ViewController: UIViewController {
         myTagView.isEdit = true
         myTagView.addTagBackColor = UIColor.grayColor()
         myTagView.tagBackColor = UIColor.yellowColor()
-        myTagView.snp_makeConstraints { (make) -> Void in
-            make.edges.equalTo(self.view.snp_edges).offset(UIEdgeInsetsMake(64, 0, 0, 0))
-        }
-//        tagView.frame = CGRectMake(0, 64, self.view.frame.width, self.view.frame.height)
+        myTagView.frame = CGRectMake(0, 64, view.frame.size.width, view.frame.size.height - 64)
         myTagView.maxTagNumber = 10;
+        
         
         let btn = UIButton()
         btn.backgroundColor = UIColor.yellowColor()
         view.addSubview(btn)
-        btn.snp_makeConstraints { (make) -> Void in
-            make.centerX.equalTo(self.view.snp_centerX)
-            make.centerY.equalTo(self.view.snp_centerY)
-            make.width.equalTo(50)
-            make.height.equalTo(50)
-        }
+        btn.frame = CGRectMake(view.center.x, view.center.y, 50, 50)
+        btn.center = view.center
         btn.addTarget(self, action: Selector("pushBtnClick:"), forControlEvents: .TouchUpInside)
-        
-        print(("jjfly尼玛死了" as NSString ).length)
-        
-        
     }
     
     @objc private func pushBtnClick(btn:UIButton){
